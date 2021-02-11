@@ -41,3 +41,7 @@ class Student
   end
     
 end
+
+romano = Student.create_table
+romano = Student.create(name: "Romano", grade: "12th")
+puts romano.name
